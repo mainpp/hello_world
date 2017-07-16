@@ -1,0 +1,16 @@
+Index: app.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app.py	(date 1500242645000)
++++ app.py	(revision )
+@@ -5,7 +5,7 @@
+ 
+ def hello_world(request):
+     print('Incoming request')
+-    return Response('<body><h1>Hello World!..</h1></body>')
++    return Response("<body><h1>Hello World...!</h1></body>")
+ 
+ 
+ if __name__ == '__main__':
